@@ -3,29 +3,20 @@
 ### Description
 This project predicts whether a client will subscribe to a term deposit using the Bank Marketing dataset. Two machine learning models, Random Forest and Neural Network, were implemented and compared.
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   ```
-2. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### models Used
+   - Random Forest Classifier
+   - Feedforward Neural Network Classifier
 
-### Usage
-1. Place the dataset (`bank-full.csv`) in the root directory.
-2. Run the preprocessing and model training script:
-   ```bash
-   python main.py
-   ```
-3. Saved models:
-   - Random Forest: `random_forest_model.pkl`
-   - Neural Network: `neural_network_model.h5`
-
+### Key Highlights
+Data preprocessing and feature engineering were applied for optimal model performance.
+Both models were evaluated based on:
+   - Accuracy
+   - Precision
+   - Recall
+   - F1-score
+     
 ### Repository Structure
 - `main.py`: Main script for data preprocessing, model training, and evaluation.
-- `requirements.txt`: Required Python libraries.
 - `README.md`: Project overview and instructions.
 - `bank-full.csv`: Input dataset.
 
@@ -34,4 +25,7 @@ This project predicts whether a client will subscribe to a term deposit using th
 |------------------|----------|
 | Random Forest    | 0.90     |
 | Neural Network   | 0.88     |
+
+### Conclusion
+This project demonstrates the effectiveness of machine learning models, particularly Random Forest and Neural Networks, in predicting term deposit subscriptions. While both models performed well, Random Forest achieved slightly higher accuracy, making it a more suitable choice for this task. Future enhancements could involve hyperparameter tuning and incorporating advanced interpretability tools for better insights into model predictions.
 
