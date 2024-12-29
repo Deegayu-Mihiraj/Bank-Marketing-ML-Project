@@ -1,4 +1,4 @@
-**Bank Marketing Term Deposit Prediction**
+# Bank Marketing Term Deposit Prediction
 
 ### Description
 This project predicts whether a client will subscribe to a term deposit using the Bank Marketing dataset. Two machine learning models, Random Forest and Neural Network, were implemented and compared.
