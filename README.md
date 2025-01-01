@@ -23,7 +23,7 @@ Both models were evaluated based on:
 ### Results
 | Model            | Accuracy |
 |------------------|----------|
-| Random Forest    | 0.90     |
+| Random Forest    | 0.89     |
 | Neural Network   | 0.88     |
 
 ### Conclusion
